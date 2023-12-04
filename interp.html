@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+
+<html>
+<head>
+  <title>BU CS320</title>
+</head>
+
+<body>
+  <h1>BU CS320 High-Level Language Interpreter</h1>
+  <table style="height:100%; width:100%" summary="">
+    <tr>
+    <td style="text-align: left; height: 100%; width:40%;">
+      <textarea 
+        id="input" 
+        rows="40" 
+        cols="100" 
+        style="height: 100%; width: 90%; resize: none;"
+      ></textarea>
+    </td>
+    <td style="vertical-align: top; width: 40%;">
+      <button id="begin" type="button" style="width: 60pt;">begin</button>
+      <button id="run" type="button" style="width: 60pt;">run</button><br><br>
+
+      <table style="width: 100%;">
+        <tr>
+          <td style="width: 60pt;"><tt>trace:</tt></td>
+          <td>
+            <textarea 
+              id="trace" 
+              rows="1" 
+              style="width: 90%; resize: none; white-space: nowrap;" 
+              readonly
+            ></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align: top; width: 60pt;"><tt>message:</tt></td>
+          <td>
+            <textarea 
+              id="message" 
+              rows="20" 
+              style="width: 90%; resize: none" 
+              readonly
+            ></textarea>
+          </td>
+        </tr>
+      </table>
+    </td>
+    </tr>
+  </table><script src="visual3.bc.js" type= "text/javascript">
+</script>
+</body>
+</html>
+
